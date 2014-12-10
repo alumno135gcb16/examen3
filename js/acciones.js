@@ -24,9 +24,9 @@ $(document).ready(function(e) {
 				
 				function Correcto(acceleration){
 					var element = document.getElementById('acelerometro');
-					element.innerHTML = 'Aceleracion en X: ' + acceleratio.x + '<br/>' + 
-					'Aceleracion en Y: ' + acceleratio.y + ' <br/>' +
-					'Aceleracion en Z: ' + acceleratio.z + ' <br/>' +
+					element.innerHTML = 'Aceleracion en X: ' + acceleration.x + '<br/>' + 
+					'Aceleracion en Y: ' + acceleration.y + ' <br/>' +
+					'Aceleracion en Z: ' + acceleration.z + ' <br/>' +
 					'Intervalo: ' + acceleration.timestamp +'<br/>';
 					
 					}
